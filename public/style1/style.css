@@ -23,8 +23,7 @@ header div{
 }
 
 #contact h3{
-    position: absolute;
-    left: -7000px;
+    display: none;
 }
 
 #contact a{
@@ -72,12 +71,7 @@ dl {
     width: 50%;
   }
 
-  .skill{
-    background-color: #cccccc;
-    margin-bottom: 7px;
-    padding: 5px;
-  }
-
+  
   .content{
     display: flex;
     flex-wrap: wrap;
@@ -88,12 +82,18 @@ dl {
     position: relative;
     flex: 0 0 50%;
   } 
- 
+  
   .content section h3 {
     margin-bottom: 10px;
     border-bottom: 1px solid #b4b4b4;
     margin-top: -40px;
-}
+  }
+  
+  .skill{
+    background-color: #cccccc;
+    margin-bottom: 7px;
+    padding: 5px;
+  }
 
 .skill span{
   background-color: #ff0000;
@@ -209,6 +209,10 @@ p{
 header h1{
   margin-top: 0;
 }
+#contact h3{
+  display: block;
+  margin-top: 1rem;
+}
 }
 @media only screen and (max-width: 750px) {
   
@@ -216,6 +220,11 @@ header h1{
     display: block;
   }
   header h1{
-    margin-top: 0;
+    margin-top: 02;
+  }
+
+  #contact h3{
+    display: block;
+    margin-top: 1rem;
   }
 }
