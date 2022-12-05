@@ -230,7 +230,7 @@ header img{
   height: 100px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) {
   header img{
     display: none;
   }
@@ -244,7 +244,7 @@ header img{
   }
 
   #about p{
-    width: 60% !important;
+    width: 80% !important;
   }
 
   #competencies {
@@ -279,7 +279,7 @@ header img{
     border-bottom: 1px solid;
   }
   .experience-details{
-    left: 70%;
+    left: 62%;
   }
   .experience h4 {
     margin-top: 0;
@@ -310,4 +310,14 @@ header img{
     gap: 30px;
     justify-content: start;
   }
+}
+
+@media screen and (max-width:400px) {
+  .experience-details{
+    left: 56%;
+  }
+  .content{
+    margin: 13rem 1rem ;
+  }
+
 }
