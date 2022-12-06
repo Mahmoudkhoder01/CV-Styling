@@ -15,7 +15,7 @@ header img{
   height: 110px;
 }
 
-.contact{
+.contacts{
   display: flex;
   flex-wrap: wrap;
 }
